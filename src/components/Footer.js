@@ -13,7 +13,6 @@ export default function Footer() {
 	return (
 		<div className = 'Footer'>
 			<div className="Footer-icon-box">
-			<p className='notes'>You can reach me here</p>
 			<a href="https://linkedin.com/in/quinnie-maja"><FontAwesomeIcon className='Footer-icons' icon={faLinkedinIn}/></a>
 			<a href="https://www.facebook.com/kwiniMaja/"><FontAwesomeIcon className='Footer-icons' icon={faFacebook}/></a>
 			<a href="https://github.com/kemher"><FontAwesomeIcon className='Footer-icons' icon={faGithub} /></a>

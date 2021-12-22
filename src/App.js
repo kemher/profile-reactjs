@@ -19,6 +19,7 @@ function App() {
   		<Routes>
   			<Route exact path='/' element={<Landing/>}/>
   			<Route exact path='/about' element={<About/>}/>
+
   		</Routes>
   		<Footer fixed="bottom"/>
   	</Router>
