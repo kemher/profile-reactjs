@@ -8,6 +8,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Landing from './pages/Landing';
 import About from './pages/About';
+import Projects from './pages/Projects';
 
 
 
@@ -19,6 +20,7 @@ function App() {
   		<Routes>
   			<Route exact path='/' element={<Landing/>}/>
   			<Route exact path='/about' element={<About/>}/>
+  			<Route exact path='/projects' element={<Projects/>}/>
 
   		</Routes>
   		<Footer fixed="bottom"/>
